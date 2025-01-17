@@ -187,4 +187,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "98242ece-2737-4f16-9c87-0712c6f93ab9")
 	)
+	(model "${IANLOIC_LIBRARIES}/grabcad/sk6812-mini-sk6814-smd3535-1/SMD3535 RGB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
