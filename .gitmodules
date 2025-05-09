@@ -1,0 +1,3 @@
+[submodule "third_party/KiCad-RP-Pico"]
+	path = third_party/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git
