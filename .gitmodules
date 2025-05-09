@@ -1,3 +1,9 @@
 [submodule "third_party/KiCad-RP-Pico"]
 	path = third_party/KiCad-RP-Pico
 	url = https://github.com/ncarandini/KiCad-RP-Pico.git
+[submodule "third_party/winterbloom"]
+	path = third_party/winterbloom
+	url = git@github.com:ianloic/winterbloom_kicad_library.git
+[submodule "third_party/4ms"]
+	path = third_party/4ms
+	url = git@github.com:ianloic/4ms-kicad-lib.git
