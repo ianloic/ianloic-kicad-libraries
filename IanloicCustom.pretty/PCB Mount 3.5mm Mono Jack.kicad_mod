@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ebe8c0f4-071b-4da7-88db-cefe67ae1c9f")
@@ -55,50 +55,60 @@
 	)
 	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 	(fp_line
+		(start -3.5 -3.25)
+		(end -2.75 -2.5)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "985d5e97-0d7a-473a-b15d-327175cd0a3e")
+	)
+	(fp_line
 		(start -5 -5)
 		(end -5 5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
-		(layer "Margin")
-		(uuid "1b00ebbf-0886-4b5f-a844-55fcaa98a16a")
+		(layer "F.CrtYd")
+		(uuid "1b1fb95c-66bb-4071-afc8-def5b5a83b45")
 	)
 	(fp_line
 		(start -5 -5)
 		(end 5 -5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
-		(layer "Margin")
-		(uuid "15437799-7774-49d4-9c1f-7d4ae1397b40")
+		(layer "F.CrtYd")
+		(uuid "ce8da9ab-7c4e-4dbb-a49d-cf6a138b8ce8")
 	)
 	(fp_line
 		(start -5 5)
 		(end 5 5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
-		(layer "Margin")
-		(uuid "4e6962ac-921f-4ba4-b2f3-45a996082eb2")
+		(layer "F.CrtYd")
+		(uuid "455bb8d5-7807-40ef-9572-854486535d5b")
 	)
 	(fp_line
 		(start 5 5)
 		(end 5 -5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.05)
+			(type solid)
 		)
-		(layer "Margin")
-		(uuid "f41c19ba-825b-4785-833a-7499bd91868b")
+		(layer "F.CrtYd")
+		(uuid "5dec0d72-5532-4fa5-ac6d-29d33b44b658")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "02c2033b-e6ee-447c-ac7a-ac7ffa8201e6")
+		(uuid "1e866208-fea3-485a-b559-9c74a67df6fe")
 		(effects
 			(font
 				(size 1 1)
@@ -108,12 +118,12 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 2 2)
+		(size 8 8)
 		(drill 6)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "fc90e9fe-dad1-4540-b071-08e30b30f8ee")
 	)
-	(pad "1" thru_hole circle
+	(pad "S" thru_hole circle
 		(at -4 -4)
 		(size 1.6 1.6)
 		(drill 0.8)
@@ -121,7 +131,7 @@
 		(remove_unused_layers no)
 		(uuid "8cc98602-e6b3-42a6-9b21-ea642a9f4426")
 	)
-	(pad "2" thru_hole circle
+	(pad "T" thru_hole circle
 		(at 4 -4)
 		(size 1.6 1.6)
 		(drill 0.8)
